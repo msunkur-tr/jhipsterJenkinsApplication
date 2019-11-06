@@ -10,6 +10,7 @@
 
     <properties>
         <!-- Build properties -->
+        <!-- main commit 1 -->
         <maven.version>3.0.0</maven.version>
         <java.version>1.8</java.version>
         <scala.version>2.12.1</scala.version>
