@@ -26,6 +26,7 @@ public class AsyncConfiguration implements AsyncConfigurer {
     public AsyncConfiguration(JHipsterProperties jHipsterProperties) {
         this.jHipsterProperties = jHipsterProperties;
     }
+    
 
     @Override
     @Bean(name = "taskExecutor")
