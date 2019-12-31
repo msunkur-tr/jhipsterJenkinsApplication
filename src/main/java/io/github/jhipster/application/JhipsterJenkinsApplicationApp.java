@@ -34,6 +34,7 @@ public class JhipsterJenkinsApplicationApp {
         this.env = env;
     }
 
+    
     /**
      * Initializes jhipsterJenkinsApplication.
      * <p>
