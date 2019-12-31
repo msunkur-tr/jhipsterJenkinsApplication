@@ -8,6 +8,7 @@
     <packaging>war</packaging>
     <name>Jhipster Jenkins Application</name>
 
+
     <properties>
         <!-- Build properties -->
         <maven.version>3.0.0</maven.version>
