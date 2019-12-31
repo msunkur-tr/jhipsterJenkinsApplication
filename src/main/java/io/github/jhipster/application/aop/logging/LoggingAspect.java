@@ -30,6 +30,7 @@ public class LoggingAspect {
         this.env = env;
     }
 
+    
     /**
      * Pointcut that matches all repositories, services and Web REST endpoints.
      */
