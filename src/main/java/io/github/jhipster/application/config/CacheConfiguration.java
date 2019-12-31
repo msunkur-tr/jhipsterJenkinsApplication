@@ -32,6 +32,7 @@ public class CacheConfiguration {
                 ResourcePoolsBuilder.heap(ehcache.getMaxEntries()))
                 .withExpiry(Expirations.timeToLiveExpiration(Duration.of(ehcache.getTimeToLiveSeconds(), TimeUnit.SECONDS)))
                 .build());
+                
     }
 
     @Bean
